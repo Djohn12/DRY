@@ -1,0 +1,36 @@
+{
+	"globals": {
+		// Put things like jQuery, etc
+		// "jQuery": true,
+		// "$": true
+	},
+	"env": {
+		// I write for browser
+		"browser": true,
+		// in CommonJS
+		"node": true
+	},
+	// To give you an idea how to override rule options:
+	"rules": {
+		// Tons of rules you can use, for example...
+		"curly": "error",
+		"eqeqeq": ["error", "always"],
+		// we can set a different rule for comparison with null literals
+		// "eqeqeq": ["error", "always", {"null": "ignore"}],
+		"no-else-return": "warn",
+		"no-empty-function": "error",
+		"quotes": [1, "single"],
+		"no-eval": "error",
+		"no-implied-eval": "error",
+		"no-multi-spaces": "error",
+		"no-redeclare": "error",
+		"brace-style": ["warn", "stroustrup", { "allowSingleLine": true}],
+		"block-spacing": ["warn", "always"],
+		"comma-spacing": ["warn", {"before": false, "after": true}],
+		"comma-style": ["warn", "last"],
+		"key-spacing": "warn",
+		"keyword-spacing": "warn",
+		"one-var-declaration-per-line": ["warn", "always", {"avoidEscape": true}, {"allowTemplateLiterals": true}],
+		"semi-style": ["warn", "last"],
+	}
+}
